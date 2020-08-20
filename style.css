@@ -2,6 +2,13 @@ table{
      border-collapse: collapse;
 }
 
+caption{
+    border: 1px solid black ;
+    padding: 6px;
+    background-color: rgb(221, 221, 221);
+    font-weight: bold
+}
+
 td{
     border: 1px solid black;
     padding: 6px;
@@ -18,10 +25,6 @@ thead{
      background-color: rgb(250, 250, 250);
 }
 
-.thead{
-    background-color: rgb(221, 221, 221);
-}
-
 tbody th{
     background-color:rgb(221, 221, 221) ;
     font-weight: normal;
@@ -36,5 +39,5 @@ tbody tr:nth-child(2n+1) {
 }
 tfoot {
     font-style: italic;
-    background-color: rgb(245, 240, 240);
+    background-color: rgb(250, 250, 250);
 }
